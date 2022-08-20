@@ -12,7 +12,6 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    parser: '@babel/eslint-parser',
   },
   plugins: [
     'react',
