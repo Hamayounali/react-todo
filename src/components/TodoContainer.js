@@ -6,9 +6,12 @@ import Header from './Header';
 import InputTodo from './InputTodo';
 
 class TodoContainer extends React.Component {
-  state = {
-    todos: [],
-  };
+  constructor(props) {
+    super(props);
+    this.state = {
+      todos: [],
+    };
+  }
 
   delTodo = (id) => {
     this.setState({
